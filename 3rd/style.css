@@ -1,0 +1,258 @@
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    scroll-behavior: smooth;
+}
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+
+/* ヘッダー */
+.header-logo {
+    font-size: 24px;
+}
+.header-menu {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.pop {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-logo span {
+    color: #80BA4A;
+}
+.container {
+    width: 1120px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* メイン */
+.hero .container {
+    background-image:url(./images/hero.jpg) ;
+    height: 540px;
+    border-radius: 30px;
+    background-size:  cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero p, h1 {
+    color: white;
+    z-index: 2;
+    margin: 3px;
+}
+.hero p {
+    font-size: 20px;;
+}
+.hero .container::before {
+    content: '';
+    background-color:black;
+    height: 100%;
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+}
+
+/* コンセプト */
+.content-container {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+
+}
+.content-container h2 {
+    font-size: 24px;
+    color: #80BA4A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.concept-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.background-word {
+    font-size: 200px;
+    font-family: 'Dancing Script', cursive;
+    color:#80BA4A;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    transform: translateY(-30%);
+    font-weight: 700;
+}
+.concept-content {
+    display: flex;
+    justify-content: space-between;
+}
+.concept-text {
+    width: 48%;
+    line-height: 2;
+}
+.concept-img {
+    background-image:url(./images/concept.jpg);
+    width: 48%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 340px;
+}
+
+/* サービス */
+.service-container {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.service-container h2 {
+    font-size: 24px;
+    color: #80BA4A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.business, .recipe, .event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#service .background-word {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.business-img {
+    background: url(./images/service.jpg);
+    width: 40%;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.set {
+    width: 55%;
+}
+.service-title {
+    font-size: 24px;
+}
+.service-text {
+    line-height: 2;
+}
+.recipe-img {
+    background: url(./images/service2.jpg);
+    width: 40%;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.recipe, .event {
+    margin-top: 40px;
+}
+.event-img {
+    background-image: url(./images/service3.jpg);
+    width: 40%;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+#company {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.company-info {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    border-bottom: 1px solid #bdf589;
+    line-height: 8;
+}
+#company h2 {
+    font-size: 24px;
+    color: #80BA4A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+dt {
+    width: 25%;
+    font-weight: 500;
+}
+dd {
+    width: 75%;
+}
+.bottom {
+    height: 260px;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+.gallery1 {
+    background-image: url(./images/bottom.jpg);
+    width: 26%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.gallery2 {
+    background-image: url(./images/bottom2.jpg);
+    width: 18%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.gallery3 {
+    background-image: url(./images/bottom3.jpg);
+    width: 22%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.gallery4 {
+    background-image: url(./images/bottom4.jpg);
+    width: 26%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/* フッター */
+footer {
+    margin: 80px 0;
+}
+.footer {
+    width: 1120px;
+    text-align: center;
+    margin: 0 auto;
+}
+.name span {
+    color:#80BA4A;
+}
+.name {
+    font-size: 24px;
+}
+.c {
+    font-size: 12px;
+}

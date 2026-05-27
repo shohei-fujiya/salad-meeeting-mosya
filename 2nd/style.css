@@ -1,0 +1,238 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+
+/* ヘッダー */
+header {
+    font-family: 'Poppins', sans-serif;
+}
+.header-left {
+    font-size: 24px;
+    font-weight: 700;
+}
+.header-right {
+    font-size: 16px;
+}
+.header-right a {
+    padding-left:30px;
+}
+header span {
+    color: #80ba4a;
+}
+.container {
+    padding-top: 30px;
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* メイン */
+.hero {
+    margin-top: 30px;
+    background-image:url(./images/hero.jpg);
+    background-size: cover;
+    height: 520px;
+    border-radius: 30px;
+    margin-top: px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.hero::before {
+    content:'';
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+}
+.hero-inner {
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+/* コンセプト */
+#concept h2 {
+    font-size: 24px;
+    color: #80ba4a;
+    padding-top: 30px;
+}
+#concept h3 {
+    font-size: 36px;
+}
+#concept .container {
+    position: relative;
+}
+.background-letter {
+    font-family: 'Dancing Script', cursive;
+    font-size: 220px;
+    position: absolute;
+    top: -220px;
+    right: 0;
+    color: #80ba4a;
+    opacity: 0.1;
+    line-height: 1;
+}
+.text {
+    width: 48%;
+    line-height: 2;
+}
+.concept-img {
+    width: 50%;
+    background-image: url(./images/concept.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/* サービス */
+#service h2 {
+    font-size: 24px;
+    color: #80ba4a;
+    padding-top: 30px;
+}
+#service h3 {
+    font-size: 24px;
+}
+.business-img {
+    background-image: url(./images/service1.jpg);
+    width: 42%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.text-set {
+    width: 55%;
+}
+.service-text {
+    line-height: 2;
+}
+.background-business {
+    font-family: 'Dancing Script', cursive;
+    font-size: 200px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #80ba4a;
+    opacity: 0.1;
+    line-height: 1;
+    transform: translateY(-130%);
+}
+.recipe-img {
+    background-image: url(./images/service2.jpg);
+    width: 42%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.event-img {
+    background-image: url(./images/service3.jpg);
+    width: 42%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.service-box {
+    padding-bottom:40px;
+    align-items: center;
+    position: relative;
+}
+
+/* カンパニー */
+#company h2 {
+    font-size: 24px;
+    color: #80ba4a;
+    padding-top: 30px;
+}
+.set {
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 1px solid #80ba4a;
+}
+dl {
+    width: 80%;
+    margin-left: auto;
+}
+dt {
+    width: 300px;
+    font-weight: 700;
+
+}
+dd {
+    margin: 0;
+    flex: 1;
+}
+
+/* ボトム */
+.b1 {
+    width: 30%;
+    height: 300px;
+}
+.b2 {
+    width: 16%;
+    height: 300px;
+}
+.b3 {
+    width: 20%;
+    height: 300px;
+}
+.b4 {
+    width: 24%;
+    height: 300px;
+}
+.bottom .flex {
+    gap: 20px;
+}
+.bottom img {
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+/* フッター */
+footer .container {
+    text-align: center;
+    padding-top: 200px;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-logo span {
+    color:#80ba4a;
+}
+.footer-c {
+    font-size: 12px;
+    padding-bottom:30px;
+}
+/* 
+dl {
+    transform: translateX(20%);
+}
+.dt {
+    width: 30%;
+}
+.dd{
+    width:70%;
+}
+ */
